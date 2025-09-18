@@ -63,13 +63,21 @@ A lookup cache taxid_cache.json (created automatically when --resume is used).
 ## Options (CLI)
 
 --email           (required) your contact email for NCBI
+
 --api-key         (recommended) boosts rate limit (NCBI)
+
 --sleep           override polite delay (auto: ~0.34s no key; ~0.12s with key)
+
 --resume          use/update a JSON cache (default: taxid_cache.json)
+
 --limit N         resolve only first N unique species (debug)
+
 --no-rank-check   skip species-rank verification (faster, but less strict)
+
 --no-progress     disable tqdm progress bar (CI logs, etc.)
+
 --verbose         log each resolution to stdout
+
 
 # Performance & API etiquette
 
